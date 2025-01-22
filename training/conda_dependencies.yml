@@ -29,6 +29,9 @@ dependencies:
       # https://docs.microsoft.com/en-us/azure/machine-learning/concept-environments
       - azureml-defaults
 
+      # to remove incompatability error
+      - azureml-inference-server-http==0.8.4.2  # Replace with a compatible version
+
       # Training deps
       - scikit-learn
 
